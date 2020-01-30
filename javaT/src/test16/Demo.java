@@ -26,21 +26,26 @@ public abstract class Demo {
 		Person p= new Person(1,"xbd");
 		Person p2= new Person(3,"deg");				//treemap and treeset are same
 		Person p3= new Person(2,"kjf");
+		
 		treem.put(p, "p");
 		treem.put(p2, "p2");
 		treem.put(p3, "p3");
 		
-		
+		System.out.println("HashMap is: ");
 		for(Map.Entry<String, String> m:map.entrySet()) {
-			System.out.println(" Get Key: "+m.getKey()+"Get value: "+m.getValue());
+			System.out.println(" Get Key: "+m.getKey()+" Get value: "+m.getValue());
 		}
+		System.out.println();
 		
+		System.out.println("LinkedHashMap is: ");
 		for(Map.Entry<String, String> m2:map2.entrySet()) {
-			System.out.println(" Get Key: "+m2.getKey()+"Get value: "+m2.getValue());
+			System.out.println(" Get Key: "+m2.getKey()+" Get value: "+m2.getValue());
 		}
+		System.out.println();
 		
+		System.out.println("TreeMap is: ");
 		for(Entry<Person, String> m3:treem.entrySet()) {
-			System.out.println(" Get Key: "+m3.getKey().getName()+"Get value: "+m3.getValue());
+			System.out.println(" Get Key: "+m3.getKey().getName()+" Get value: "+m3.getValue());
 		}
 	}
 
