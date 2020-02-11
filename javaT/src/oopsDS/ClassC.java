@@ -1,9 +1,10 @@
 package oopsDS;
 
-public class ClassC extends ClassA, ClassB{//Multiple inheritance not allowed in java
+public class ClassC //extends ClassA, ClassB //Multiple inheritance not allowed in java
+{
 
 	public void test(){
 		//calling super class method
-		doSomething();
+//		doSomething();// by calling this method it will throw exception
 	}
 }

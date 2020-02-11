@@ -1,6 +1,6 @@
 package RobinAliAssig;
 
-public class DemoThread {
+public class DemoVargs {
 
 	public static void main(String ...sagar) {
 	
